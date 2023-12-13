@@ -1,0 +1,53 @@
+.formWrap{
+    width: 50%;
+    height: 70%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+form{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.email{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.email input{
+    width: 50%;
+    height: 25%;
+    border: 1px solid rgb(232, 179, 11);
+    border-radius: 5px;
+}
+.password{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.password input{
+    width: 50%;
+    height: 25%;
+    border: 1px solid rgb(232, 179, 11);
+    border-radius: 5px;
+}
+button{
+    padding: 10px 30px;
+    background-color: rgb(232, 179, 110);
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
